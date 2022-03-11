@@ -9,7 +9,7 @@ body {
 /*Header section*/
 
 header{
-	background-image:url_for('static', filename='HeadPics.jpeg');
+	background-image:url_for('static', filename='image/HeadPics.jpeg');
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 60px;
@@ -34,8 +34,8 @@ header img{
 /*Main section*/
 main{
 	max-width: auto;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 	padding: auto;
 }
 
@@ -49,19 +49,11 @@ main a{
 }
 
 main a:hover{
-	background-color: black;
-	color: white;
+	background-color: #AED6F1;
+	color: #FCF3CF;
 }
 
 main p{
-	text-indent:50px;
-}
-
-p.caption{
-	margin-top: 0;
-	color:  grey;
-	font-style: italic;
-	font-size: 20px;
 	text-indent:50px;
 }
 
